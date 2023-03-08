@@ -10,7 +10,8 @@ for (let i = 0; i < albums.length; i++ ) {
     <img scr="${albums.photo}" alt="${albums.name}">`
 
  if (i < 10) {
-    document.querySelector('main').insertAdjacentHTML('beforeend', moreAlbumsMessage);
+    document.querySelector('main').insertAdjacentHTML('beforeend', moreAlbumsMessage)
 }
+    ;
 document.querySelector('main').insertAdjacentHTML('beforeend', html) }
 ;
