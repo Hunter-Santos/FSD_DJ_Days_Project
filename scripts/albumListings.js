@@ -8,9 +8,9 @@ for (let i = 0; i < albums.length; i++ ) {
     <h3>Artist: ${albums[i].artist} </h3>
     <p>Genre: ${albums[i].genre} </p>
     <img scr="${albums.photo}" alt="${albums.name}">`
-    ;
+
+ if (i < 10) {
+    document.querySelector('main').insertAdjacentHTML('beforeend', moreAlbumsMessage);
 }
-
-document.querySelector('beforebegin', moreAlbumsMessage);
-
-document.querySelector('main').insertAdjacentHTML('beforeend', html);
+document.querySelector('main').insertAdjacentHTML('beforeend', html) }
+;
